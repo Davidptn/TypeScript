@@ -8,5 +8,5 @@ app.use("/posts", postRouter);
 
 const PORT = 2232;
 app.listen(PORT, () => {
-    console.log(`✅ Сервер запущен: http://localhost:${PORT}`);
+    console.log(`Сервер запущен: http://localhost:${PORT}`);
 });
